@@ -64,6 +64,7 @@ static LIST_HEAD(fake_master_head);
 
 static u32 max_file_desc_id = 0;
 
+//[maxing COMMENT]: 初始化file_desc hash
 static void init_fdesc_hash(void)
 {
 	int i;
